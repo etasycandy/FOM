@@ -36,6 +36,7 @@ header{
 .headline-2 .account .login:hover, .register:hover{
     color: black;
 }
-.headline-2 .noti{
-    
+
+.menu {
+    color: #E95123;
 }
