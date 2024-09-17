@@ -1,0 +1,41 @@
+header{
+    background-color: #3853d7;
+}
+
+.headline-1 {
+    background-color: #3853d7;
+}
+
+.headline-2 .logo{
+    width: 10rem;
+}
+.headline-2 .location p{
+    padding-left: 0.2rem;
+}
+.headline-2 .icon-location{
+   
+}
+.headline-2 .search{
+    width: 25rem;
+}
+.headline-2 .search input{
+    padding-left: 3rem;
+}
+.headline-2 .icon-search{
+    position: absolute;
+    top: -0.1rem;
+    left: 0.5rem;
+}
+.headline-2 .icon-cart{
+    width: 1.5rem;
+    margin-right: 0.5rem;
+}
+.headline-2 .location, .cart, .account{
+    color: #3853d7;
+}
+.headline-2 .account .login:hover, .register:hover{
+    color: black;
+}
+.headline-2 .noti{
+    
+}
