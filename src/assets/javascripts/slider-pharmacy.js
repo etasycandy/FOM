@@ -1,4 +1,4 @@
-fetch("./FOM/src/assets/javascripts/data/home.json")
+fetch("https://etasycandy.github.io/FOM/src/assets/javascripts/data/home.json")
 .then((res) => {
     return res.json()
 })
