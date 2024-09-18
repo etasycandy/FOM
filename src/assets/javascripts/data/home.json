@@ -4,7 +4,7 @@
             "id": "pharmacy01",
             "name": "Nhà thuốc ABC",
             "image": "../FOM/src/assets/images/nha-thuoc-abc.png",
-            "url": "../FOM/src/pages/stores/nhaThuocABC.html"
+            "url": "https://etasycandy.github.io/FOM/src/pages/stores/nhaThuocABC.html"
         },
         {
             "id": "pharmacy02",
