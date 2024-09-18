@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FOM</title>
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="src/assets/styles/style.css">
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/assets/styles/style.css" />
     <script src="src/assets/javascripts/hooks/include.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <div include-html="src/components/header.html"></div>
     <div include-html="src/components/menu.html"></div>
-   
+
+    <div class="carousel flex items-center justify-center">
+      <div class="container w-full h-3/5 bg-red-500 rounded-lg">baner</div>
+    </div>
+
+    <h1 class="text-lg font-bold">Body</h1>
+
+    <footer include-html="src/components/footer.html"></footer>
 
     <script>
-        includeHTML();
+      includeHTML();
     </script>
-</body>
+  </body>
 </html>
