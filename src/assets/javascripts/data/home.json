@@ -1,0 +1,168 @@
+{
+    "listPharmacy": [
+        {
+            "id": "pharmacy01",
+            "name": "Nhà thuốc ABC",
+            "image": "/src/assets/images/nha-thuoc-abc.png",
+            "url": "/src/pages/stores/nhaThuocABC.html"
+        },
+        {
+            "id": "pharmacy02",
+            "name": "Nhà thuốc XYZ",
+            "image": "/src/assets/images/nha-thuoc-xyz.png",
+            "url": "./nhaThuocABC.html"
+        },
+        {
+            "id": "pharmacy03",
+            "name": "Nhà thuốc Hoàng Anh",
+            "image": "/src/assets/images/nha-thuoc-hoang-anh.png",
+            "url": "./nhaThuocABC.html"
+        },
+        {
+            "id": "pharmacy04",
+            "name": "Nhà thuốc ABC",
+            "image": "/src/assets/images/nha-thuoc-abc.png",
+            "url": "./nhaThuocABC.html"
+        },
+        {
+            "id": "pharmacy05",
+            "name": "Nhà thuốc ABC",
+            "image": "/src/assets/images/nha-thuoc-abc.png",
+            "url": "./nhaThuocABC.html"
+        },
+        {
+            "id": "pharmacy06",
+            "name": "Nhà thuốc ABC",
+            "image": "/src/assets/images/nha-thuoc-abc.png",
+            "url": "./nhaThuocABC.html"
+        },
+        {
+            "id": "pharmacy07",
+            "name": "Nhà thuốc ABC",
+            "image": "/src/assets/images/nha-thuoc-abc.png",
+            "url": "./nhaThuocABC.html"
+        },
+        {
+            "id": "pharmacy08",
+            "name": "Nhà thuốc ABC",
+            "image": "/src/assets/images/nha-thuoc-abc.png",
+            "url": "./nhaThuocABC.html"
+        }
+    ],
+    "listBestSeller": [
+        {
+            "name": "Viên uống Kiện cốt Vương hỗ trợ giảm triệu chứng đau nhức khớp (hộp 45 viên)",
+            "category": "Thực phẩm chức năng",
+            "price": "300.000",
+            "sale":"285.000",
+            "image": "/src/assets/images/vien-uong-kien-cot-vuong.png"
+        },
+        {
+            "name": "Viên uống Kiện cốt Vương hỗ trợ giảm triệu chứng đau nhức khớp (hộp 45 viên)",
+            "category": "Thực phẩm chức năng",
+            "price": "300.000",
+            "sale":"285.000",
+            "image": "/src/assets/images/vien-uong-kien-cot-vuong.png"
+        },
+        {
+            "name": "Viên uống Kiện cốt Vương hỗ trợ giảm triệu chứng đau nhức khớp (hộp 45 viên)",
+            "category": "Thực phẩm chức năng",
+            "price": "300.000",
+            "sale":"285.000",
+            "image": "/src/assets/images/vien-uong-kien-cot-vuong.png"
+        },
+        {
+            "name": "Viên uống Kiện cốt Vương hỗ trợ giảm triệu chứng đau nhức khớp (hộp 45 viên)",
+            "category": "Thực phẩm chức năng",
+            "price": "300.000",
+            "sale":"285.000",
+            "image": "/src/assets/images/vien-uong-kien-cot-vuong.png"
+        },
+        {
+            "name": "Viên uống Kiện cốt Vương hỗ trợ giảm triệu chứng đau nhức khớp (hộp 45 viên)",
+            "category": "Thực phẩm chức năng",
+            "price": "300.000",
+            "sale":"285.000",
+            "image": "/src/assets/images/vien-uong-kien-cot-vuong.png"
+        },
+        {
+            "name": "Viên uống Kiện cốt Vương hỗ trợ giảm triệu chứng đau nhức khớp (hộp 45 viên)",
+            "category": "Thực phẩm chức năng",
+            "price": "300.000",
+            "sale":"285.000",
+            "image": "/src/assets/images/vien-uong-kien-cot-vuong.png"
+        },
+        {
+            "name": "Viên uống Kiện cốt Vương hỗ trợ giảm triệu chứng đau nhức khớp (hộp 45 viên)",
+            "category": "Thực phẩm chức năng",
+            "price": "300.000",
+            "sale":"285.000",
+            "image": "/src/assets/images/vien-uong-kien-cot-vuong.png"
+        },
+        {
+            "name": "Viên uống Kiện cốt Vương hỗ trợ giảm triệu chứng đau nhức khớp (hộp 45 viên)",
+            "category": "Thực phẩm chức năng",
+            "price": "300.000",
+            "sale":"285.000",
+            "image": "/src/assets/images/vien-uong-kien-cot-vuong.png"
+        }
+    ],
+    "listSuggestProduct": [
+        {
+            "name": "Viên uống Kiện cốt Vương hỗ trợ giảm triệu chứng đau nhức khớp (hộp 45 viên)",
+            "category": "Thực phẩm chức năng",
+            "price": "300.000",
+            "sale":"285.000",
+            "image": "/src/assets/images/vien-uong-kien-cot-vuong.png"
+        },
+        {
+            "name": "Viên uống Kiện cốt Vương hỗ trợ giảm triệu chứng đau nhức khớp (hộp 45 viên)",
+            "category": "Thực phẩm chức năng",
+            "price": "300.000",
+            "sale":"285.000",
+            "image": "/src/assets/images/vien-uong-kien-cot-vuong.png"
+        },
+        {
+            "name": "Viên uống Kiện cốt Vương hỗ trợ giảm triệu chứng đau nhức khớp (hộp 45 viên)",
+            "category": "Thực phẩm chức năng",
+            "price": "300.000",
+            "sale":"285.000",
+            "image": "/src/assets/images/vien-uong-kien-cot-vuong.png"
+        },
+        {
+            "name": "Viên uống Kiện cốt Vương hỗ trợ giảm triệu chứng đau nhức khớp (hộp 45 viên)",
+            "category": "Thực phẩm chức năng",
+            "price": "300.000",
+            "sale":"285.000",
+            "image": "/src/assets/images/vien-uong-kien-cot-vuong.png"
+        },
+        {
+            "name": "Viên uống Kiện cốt Vương hỗ trợ giảm triệu chứng đau nhức khớp (hộp 45 viên)",
+            "category": "Thực phẩm chức năng",
+            "price": "300.000",
+            "sale":"285.000",
+            "image": "/src/assets/images/vien-uong-kien-cot-vuong.png"
+        },
+        {
+            "name": "Viên uống Kiện cốt Vương hỗ trợ giảm triệu chứng đau nhức khớp (hộp 45 viên)",
+            "category": "Thực phẩm chức năng",
+            "price": "300.000",
+            "sale":"285.000",
+            "image": "/src/assets/images/vien-uong-kien-cot-vuong.png"
+        },
+        {
+            "name": "Viên uống Kiện cốt Vương hỗ trợ giảm triệu chứng đau nhức khớp (hộp 45 viên)",
+            "category": "Thực phẩm chức năng",
+            "price": "300.000",
+            "sale":"285.000",
+            "image": "/src/assets/images/vien-uong-kien-cot-vuong.png"
+        },
+        {
+            "name": "Viên uống Kiện cốt Vương hỗ trợ giảm triệu chứng đau nhức khớp (hộp 45 viên)",
+            "category": "Thực phẩm chức năng",
+            "price": "300.000",
+            "sale":"285.000",
+            "image": "/src/assets/images/vien-uong-kien-cot-vuong.png"
+        }
+    ]
+}

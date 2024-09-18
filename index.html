@@ -9,22 +9,195 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/assets/styles/style.css" />
+    <link rel="stylesheet" href="src/assets/styles/carousel.css" />
     <script src="src/assets/javascripts/hooks/include.js"></script>
   </head>
   <body>
     <div include-html="src/components/header.html"></div>
     <div include-html="src/components/menu.html"></div>
 
+    <!-- Carousel -->
     <div class="carousel flex items-center justify-center">
-      <div class="container w-full h-3/5 bg-red-500 rounded-lg">baner</div>
+      <div class="container w-full h-3/5">
+        <div class="slider rounded-lg">
+          <div class="list">
+            <div class="item">
+              <img src="/src/assets/images/1.jpg" alt="" />
+            </div>
+            <div class="item">
+              <img src="/src/assets/images/2.jpg" alt="" />
+            </div>
+            <div class="item">
+              <img src="/src/assets/images/3.jpg" alt="" />
+            </div>
+            <div class="item">
+              <img src="/src/assets/images/4.jpg" alt="" />
+            </div>
+            <div class="item">
+              <img src="/src/assets/images/5.jpg" alt="" />
+            </div>
+          </div>
+          <div class="buttons">
+            <button id="prev"><</button>
+            <button id="next">></button>
+          </div>
+          <ul class="dots">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
     </div>
 
-    <h1 class="text-lg font-bold">Body</h1>
+    <!-- Categories -->
+    <div class="categories flex items-center justify-center">
+      <div
+        class="container grid grid-cols-10 justify-center items-center gap-5"
+      >
+        <div class="col-span-6 grid grid-cols-3 p-3 gap-5">
+          <a
+            href="#"
+            class="item flex justify-center items-center text-red-600 gap-3 font-bold bg-white p-5 text-center rounded-xl shadow cursor-pointer"
+          >
+            <img src="/src/assets/images/icon-heart.png" alt="heart" />
+            <p>Tim mạch</p>
+          </a>
+          <a
+            href="#"
+            class="item flex justify-center items-center text-red-600 gap-3 font-bold bg-white p-5 text-center rounded-xl shadow cursor-pointer"
+          >
+            <img src="/src/assets/images/icon-brain.png" alt="brain" />
+            <p>Thần kinh não</p>
+          </a>
+          <a
+            href="#"
+            class="item flex justify-center items-center text-red-600 gap-3 font-bold bg-white p-5 text-center rounded-xl shadow cursor-pointer"
+          >
+            <img src="/src/assets/images/icon-medicine.png" alt="medicine" />
+            <p>Hỗ trợ điều trị</p>
+          </a>
+          <a
+            href="#"
+            class="item flex justify-center items-center text-red-600 gap-3 font-bold bg-white p-5 text-center rounded-xl shadow cursor-pointer"
+          >
+            <img src="/src/assets/images/icon-teeth.png" alt="teeth" />
+            <p>Răng miệng</p>
+          </a>
+          <a
+            href="#"
+            class="item flex justify-center items-center text-red-600 gap-3 font-bold bg-white p-5 text-center rounded-xl shadow cursor-pointer"
+          >
+            <img src="/src/assets/images/icon-nutrition.png" alt="nutrition" />
+            <p>Dinh dưỡng</p>
+          </a>
+          <a
+            href="#"
+            class="item flex justify-center items-center text-red-600 gap-3 font-bold bg-white p-5 text-center rounded-xl shadow cursor-pointer"
+          >
+            <img src="/src/assets/images/icon-breathing.png" alt="breathing" />
+            <p>Hô hấp</p>
+          </a>
+        </div>
+        <div class="col-span-4 pr-3">
+          <div
+            class="bg-white rounded-lg h-fit flex justify-center items-center gap-5 h-full py-8"
+          >
+            <img src="/src/assets/images/bxh.png" alt="bxh-nha-thuoc" />
+            <div class="flex flex-col justify-center items-center gap-3">
+              <img
+                src="/src/assets/images/icon-farmacy.png"
+                alt="bxh-nha-thuoc"
+              />
+              <p class="uppercase font-bold text-lg text-center text-red-600">
+                BXH Nhà thuốc khu vực
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Nhà thuốc gần bạn -->
+    <div
+      class="pharmacy flex items-center justify-center my-5 bg-white shadow-sm"
+    >
+      <div class="container text-center py-4">
+        <h1 class="uppercase font-black text-3xl">Nhà thuốc gần bạn</h1>
+        <p class="text-lg text-gray-700">
+          Hãy tìm kiếm và lựa chọn nhà thuốc phù hợp với bạn nhé!
+        </p>
+        <div
+          id="item-pharmacy"
+          class="list-pharmacy my-5 flex flex-row gap-12 py-5"
+        >
+          <!-- List pharmacy -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Sản phẩm bán chạy -->
+    <div class="best-seller flex items-center justify-center my-10">
+      <div class="container relative">
+        <h1
+          class="text-3xl bg-orange-600 rounded-full px-8 py-1 text-white uppercase font-extrabold"
+        >
+          Sản phẩm bán chạy
+        </h1>
+
+        <div id="list-bestseller" class="products mt-8 flex flex row gap-5">
+          <!-- List product best seller -->
+        </div>
+        <!-- <div class="buttons">
+          <button id="prevBestSeller"><</button>
+          <button id="nextBestSeller">></button>
+        </div> -->
+      </div>
+    </div>
+
+    <!-- Gợi ý ngày hôm nay -->
+    <div class="suggest-products flex items-center justify-center my-10 py-5">
+      <div class="container relative">
+        <h1 class="text-3xl rounded-full px-8 py-1 uppercase font-extrabold">
+          Gợi ý ngày hôm nay
+        </h1>
+
+        <div
+          id="list-suggest-products"
+          class="products mt-8 flex flex row gap-5"
+        >
+          <!-- List product best seller -->
+        </div>
+        <div class="flex justify-center items-center">
+          <button
+            class="mt-5 py-2 px-5 text-red-700 font-bold rounded border-solid border-2 border-red-600 uppercase"
+          >
+            Xem thêm
+          </button>
+        </div>
+      </div>
+    </div>
 
     <footer include-html="src/components/footer.html"></footer>
 
     <script>
       includeHTML();
     </script>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+
+    <script src="/src/assets/javascripts/hooks/carousel.js"></script>
+    <script src="/src/assets/javascripts/slider-pharmacy.js"></script>
+    <script src="/src/assets/javascripts/best-seller.js"></script>
+    <script src="/src/assets/javascripts/suggest-products.js"></script>
   </body>
 </html>

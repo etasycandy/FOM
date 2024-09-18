@@ -15,6 +15,9 @@ header{
 .headline-2 .location p{
     padding-left: 0.2rem;
 }
+.headline-2 .location:hover{
+    cursor: pointer;
+}
 .headline-2 .search{
     width: 25rem;
 }
@@ -48,4 +51,112 @@ footer .suggest-2{
 
 .carousel .container{
     height: 30rem;
+}
+
+.pharmacy .list-pharmacy{
+    width: 100%;
+    overflow: hidden;
+    transition: 1s;
+    overflow-x: auto;
+}
+.pharmacy .list-pharmacy::-webkit-scrollbar {
+    width: 10px;
+    height: 3px;
+    background-color: #E95123;
+    color: white;
+    border-radius: 100%;
+}
+.pharmacy .list-pharmacy .image{
+    width: 10rem;
+}
+
+.best-seller h1{
+    width: fit-content;
+    margin: 0 auto;
+}
+.best-seller .products{
+    width: 100%;
+    overflow: hidden;
+    transition: 1s;
+    overflow-x: auto;
+}
+.suggest-products .products{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.best-seller .products::-webkit-scrollbar {
+    height: 0;
+}
+.suggest-products .products::-webkit-scrollbar {
+    height: 0;
+}
+
+.best-seller .products .item, .suggest-products .products .item{
+    width: 18rem;
+    min-width: 18rem
+}
+.best-seller .products .item-hover,
+.suggest-products .products .item-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.300);
+    width: 18rem;
+    height: 100%;
+    transition: 0.5s;
+    opacity: 0;
+}
+.best-seller .products .item-hover .icons img,
+.suggest-products .products .item-hover .icons img{
+    width: 1.2rem;
+}
+.best-seller .products .item-hover button,
+.suggest-products .products .item-hover button{
+    width: 15rem;
+    position: absolute;
+    top: 22rem;
+    left: 1.5rem;
+    right: 1.5rem;
+}
+.best-seller .products .item:hover .item-hover,
+.suggest-products .products .item:hover .item-hover{
+    opacity: 1;
+}
+/* 
+.best-seller .buttons {
+    position: absolute;
+    top: 55%;
+    left: -5%;
+    width: 110%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.best-seller .buttons button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #1111118c;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+    outline: none;
+    font-size: 2rem;
+    opacity: 50;
+} */
+
+.suggest-products h1 {
+    width: fit-content;
+    margin: 0 auto;
+}
+.suggest-products button{
+    width: 12rem;
+    transition: 0.5s;
+}
+.suggest-products button:hover{
+    cursor: pointer;
+    background-color: #E95123;
+    color: white;
 }
