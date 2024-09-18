@@ -1,4 +1,4 @@
-fetch("/src/assets/javascripts/data/home.json")
+fetch("FOM/src/assets/javascripts/data/home.json")
 .then((res) => {
     return res.json()
 })
@@ -25,12 +25,12 @@ fetch("/src/assets/javascripts/data/home.json")
               <div class="icons float-right mr-4 mt-4 flex flex-col gap-5">
                 <img
                   class="cursor-pointer"
-                  src="/src/assets/images/icon-share.png"
+                  src="FOM/src/assets/images/icon-share.png"
                   alt="share"
                 />
                 <img
                   class="cursor-pointer"
-                  src="/src/assets/images/icon-like.png"
+                  src="FOM/src/assets/images/icon-like.png"
                   alt="like"
                 />
               </div>
